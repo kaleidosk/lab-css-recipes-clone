@@ -22,3 +22,52 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+#applepie {background-image:url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 400px;
+margin-left: 8em;
+margin-right: 8em;}
+
+#applepiedescrip {
+  color:white;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+ }
+
+ #history {
+  font-size: small;
+  padding-left: 10em;
+  padding-right: 10em;
+  margin-top: 4em;
+ }
+  
+.title {
+font-size: small;
+font-weight: bold;
+padding-bottom: 2em;
+padding-left: 10em;
+}
+
+.buttomimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 35em;
+  size-adjust:inherit ;
+  height: 3em;
+}
+
+.list {
+  font-size: small;
+  padding-left: 10em;
+  list-style: none;
+}
+hr {
+  height: 3px;
+  background-color: black;
+  margin-left: 8em;
+  margin-right: 8em;
+}
